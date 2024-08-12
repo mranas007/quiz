@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Outline&family=Josefin+Sans&family=Poppins:wght@300;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 100%, 88%);
+}
+
+.box {
+    width: 40vw;
+    background-color: #fff;
+    padding: 2rem 4rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.container .box h2 {
+    margin: 1rem 0 2rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.container .box ul li {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+
+.container .box #submit {
+    padding: 0.6rem 1rem 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    display: block;
+    margin: 1.5rem auto 0;
+    text-transform: uppercase;
+    background-color: #74b9ff;
+    transition: 0.3s;
+}
+
+.container .box #submit:hover {
+    background-color: rgb(36, 145, 255);
+    color: white;
+    box-shadow: 0 1rem 1rem -0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.container .box #submit:active {
+    background-color: #74b9ff;
+    box-shadow: none;
+    color: black;
+}
+
+#scroeShow {
+    background-color: #dfe6e9;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    gap: 18px;
+}
+
+#scroeShow h1 {
+    font-size: 1.1rem;
+}
+
+#scroeShow button {
+    padding: 0.6rem 1rem 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    background-color: #74b9ff;
+    transition: 0.3s;
+}
+
+#scroeShow button:hover {
+    background-color: rgb(36, 145, 255);
+    color: white;
+    box-shadow: 0 1rem 1rem -0.4rem rgba(0, 0, 0, 0.4);
+}
+#scroeShow button:active {
+    box-shadow: none;
+    background-color: #74b9ff;
+    color: black;
+}
+#display{
+    display: none;
+}
